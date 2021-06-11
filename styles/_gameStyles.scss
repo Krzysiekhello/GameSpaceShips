@@ -32,6 +32,7 @@
     background-repeat: no-repeat;
     transition: 1s linear;
     #spaceShipFire {
+      display: none;
       position: absolute;
       left: 50%;
       top: 100%;
@@ -67,10 +68,9 @@
   width: 50px;
   border-radius: 10px;
   background-color: #fff;
-  z-index: 1;
+  z-index: 5;
 }
 .enemySpaceShipLeftovers {
-  position: absolute;
   height: 5px;
   width: 5px;
   border-radius: 50%;
